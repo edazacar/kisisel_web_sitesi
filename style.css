@@ -1,0 +1,85 @@
+
+body{
+    background-image: url('snblurred.jpg');
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.topmenu{
+color:#1B4079;
+font-weight: bold;
+font-size:30px;
+border-width: 5pt;
+border-color:#1B4079;
+border-style:solid;
+background-color: #526b91;
+text-align: center;
+justify-content: center;
+display: flex;
+margin:0 auto;
+justify-items: center;
+gap:100px;
+padding:5px;
+}
+.stil1{
+  color: rgb(209, 215, 255);
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #200e67;}
+     .butonlar{
+        align-items: center;
+        margin-top: 50px;
+        display: flex;
+        gap: 60px;
+        padding: 20px;
+        justify-content: center;
+     }
+     .tikla1 {
+        background-color: #476797;
+        color: white;
+        border: 30px solid #1B4079;
+        font-size: 30px;
+     }
+.stil4 {
+    color: #24314e;
+    font-size: 24px;
+
+}
+.stil5 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #a5b4d7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.liste {
+    background-color: #91a3ce;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    list-style-position:inside;
+    font-size: 30px;
+}
+.iletisim {
+    text-align: center;
+    margin-top: 50px;
+}
+.buton {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top:60px;
+    font-size:40pt;
+    color: #b2c1d7;
+}
+.sosyalmedya {
+    background-color: #1B4079;
+    border:20px;
+}
